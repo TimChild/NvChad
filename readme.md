@@ -24,10 +24,36 @@ Did initial setup following this video
 
 https://www.youtube.com/watch?v=DzNmUNvnB04&t
 
+Then the NvChad Docs are good too https://nvchad.com/docs/
+
 
 # Plugins / Config notes
 
 Building around NvChad. Not done much customizing beyond the video above
+
+## Mason
+Mason handles the installation of LSPs, DAPs, Formatters, and Linters. 
+
+To be able to install the `black` formatter, python-venv must be installed.
+Instructions for setting up python-venv
+
+https://serverspace.io/support/help/python-3-virtual-environment-on-ubuntu-22-04/
+
+Note: I set an `alias python = "python3` for convenience.
+
+Note: I'm not 100% sure is necessary to install pip for the base python. But it shouldn't hurt to install it.
+
+`pip` is not installed by default. It can be installed with 
+```
+sudo apt install python3-pip -y
+```
+
+Then python-venv can be installed with 
+```sudo apt install python3-venv -y```
+
+
+
+
 
 ## Clipboard with WSL2
 
